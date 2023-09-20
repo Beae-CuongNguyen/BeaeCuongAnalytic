@@ -1,12 +1,14 @@
-<script setup>
-</script>
-
 <template>
-  <h1 class="text-3xl text-black font-bold underline">
-    Hello world!
-  </h1>
+ <Table></Table>
 </template>
 
-<style scoped>
+<script>
+import Table from './components/Table/Table.vue'
+export default {
+  components: {
+    Table
+  }
+}
+</script>
 
-</style>
+<style scoped></style>
